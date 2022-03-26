@@ -1,7 +1,0 @@
-tubing-example:
-  broadcast-prefix: "&C[BROADCAST] &6"
-  broadcast-messages:
-    - Restart in 10 minutes
-    - Restart in 5 minutes
-    - Restart in 1 minutes
-    - Network maintenance today

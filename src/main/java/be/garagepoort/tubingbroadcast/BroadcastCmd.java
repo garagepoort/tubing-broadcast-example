@@ -1,16 +1,12 @@
 package be.garagepoort.tubingbroadcast;
 
-import be.garagepoort.mcioc.IocBean;
 import be.garagepoort.mcioc.IocCommandHandler;
-import be.garagepoort.mcioc.gui.GuiActionService;
+import be.garagepoort.mcioc.tubinggui.GuiActionService;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import java.util.List;
-
-@IocBean
 @IocCommandHandler("broadcast")
 public class BroadcastCmd implements CommandExecutor {
 

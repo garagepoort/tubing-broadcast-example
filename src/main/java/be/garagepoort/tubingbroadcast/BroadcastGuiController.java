@@ -1,21 +1,19 @@
 package be.garagepoort.tubingbroadcast;
 
-import be.garagepoort.mcioc.IocBean;
 import be.garagepoort.mcioc.configuration.ConfigProperty;
-import be.garagepoort.mcioc.gui.GuiAction;
-import be.garagepoort.mcioc.gui.GuiController;
-import be.garagepoort.mcioc.gui.GuiParam;
-import be.garagepoort.mcioc.gui.templates.GuiTemplate;
+import be.garagepoort.mcioc.tubinggui.GuiAction;
+import be.garagepoort.mcioc.tubinggui.GuiController;
+import be.garagepoort.mcioc.tubinggui.GuiParam;
+import be.garagepoort.mcioc.tubinggui.templates.GuiTemplate;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
 import java.util.HashMap;
 import java.util.List;
 
-import static be.garagepoort.mcioc.gui.templates.GuiTemplate.template;
+import static be.garagepoort.mcioc.tubinggui.templates.GuiTemplate.template;
 import static org.bukkit.ChatColor.translateAlternateColorCodes;
 
-@IocBean
 @GuiController
 public class BroadcastGuiController {
 
